@@ -1,0 +1,52 @@
+ul,
+#myUL {
+  /*list-style-type: none;*/
+}
+
+#myUL {
+  margin: 0;
+  padding: 0;
+}
+
+.caret {
+  cursor: pointer;
+  -webkit-user-select: none; /* Safari 3.1+ */
+  -moz-user-select: none; /* Firefox 2+ */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none;
+}
+
+.caret::before {
+  /*content: "\25B6";*/
+  color: black;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.caret-down::before {
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Safari */
+  transform: rotate(90deg);
+}
+
+.nested {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+.error-api {
+  background-color: #f81515 !important;
+  color: white !important;
+  border-radius: 0rem 12rem 0rem 12rem !important;
+  padding: 1rem;
+  height: 7rem !important;
+
+}
+.error-api:hover {
+  -webkit-box-shadow: 2px 6px 15px 0px rgb(69 65 78 / 25%);
+  -moz-box-shadow: 2px 6px 15px 0px rgba(69 65 78 / 25%);
+  box-shadow: 5px 10px 20px 1px rgb(69 65 78 / 25%);
+}

@@ -1,0 +1,114 @@
+body {
+    background: #f0f0f1;
+    font-family: "Baloo 2";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: white !important;
+}
+
+.col-error-bc {
+    background: #df3131;
+}
+
+.table-info-buy {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#table-data-buy tbody tr > td {
+    border: 1px solid rgb(220, 220, 220);
+    height: 30px;
+    padding-left: 3px;
+}
+
+#table-data-buy {
+    padding-left: 40px;
+    margin-top: 20px;
+}
+
+.espacio {
+    height: 10px;
+}
+
+.espacio-width {
+    width: 5rem;
+}
+
+.col-info {
+    margin-top: -4%;
+    margin-block-end: 2%;
+}
+
+.card-detail-buy {
+    margin: auto;
+    width: 50% !important;
+    display: block;
+    text-align: center;
+}
+
+.card-error-bc {
+    background: transparent;
+    border: none;
+    padding: 10%;
+    text-align: center;
+    padding-block-end: 5%;
+}
+
+.col-bc-redirect {
+    text-align: center !important;
+}
+
+.btn-redirect {
+    margin-block-start: 1rem;
+}
+
+.text-bc-data-buy {
+    font-size: 18px;
+}
+
+.text-bc-redirect {
+    margin-block-start: 1rem;
+    font-size: 16px;
+}
+
+.icon-error {
+    font-size: 70px;
+    color: white;
+    margin-block-end: 3%;
+    margin-block-start: -5%;
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    .card-error-bc {
+        padding: 20% !important;
+    }
+
+    h3 {
+        font-size: 3rem !important;
+    }
+
+    h1 {
+        font-size: 5rem !important;
+    }
+
+    .col-info {
+        margin-top: auto !important;
+    }
+
+    .card-detail-buy {
+        width: 100% !important;
+    }
+
+    .text-bc-data-buy {
+        font-size: 4rem;
+    }
+
+    .text-bc-redirect {
+        font-size: 3rem !important;
+    }
+}

@@ -1,0 +1,22 @@
+.txt-tables {
+  color: white !important;
+  font-weight: 800 !important;
+}
+
+.content-aument-categorias,
+.content-buscador {
+  margin-block-end: 2rem !important;
+}
+
+.table-productos{
+  width: 109% !important;
+  max-width: none !important;
+  margin-left: -2.5rem;
+}
+
+.text-error-search{
+    font-size: 16px;
+    color: red;
+    font-weight: 900;
+    text-align: center;
+}

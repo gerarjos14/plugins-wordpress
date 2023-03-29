@@ -1,0 +1,15 @@
+{
+	"name": "matias/prueba_wc_api",
+	"description": "API Prueba woocommerce",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Matías Mazzuca",
+			"email": "mazzuca20@gmail.com"
+		}
+	],
+
+	"require": {
+		"automattic/woocommerce": "^3.0"
+	}
+}

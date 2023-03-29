@@ -1,0 +1,10 @@
+.card-services{
+    border-radius: 1rem !important;
+    border-color: #00A8E8;
+}
+
+.card-services:hover{
+    -webkit-box-shadow: 2px 6px 15px 0px rgb(69 65 78 / 25%);
+    -moz-box-shadow: 2px 6px 15px 0px rgba(69 65 78 / 25%);
+    box-shadow: 5px 10px 20px 1px rgb(69 65 78 / 25%);
+}

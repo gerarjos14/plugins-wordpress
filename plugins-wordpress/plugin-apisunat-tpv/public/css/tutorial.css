@@ -1,0 +1,6 @@
+.modal-sc-tutorial{
+    width: 50rem !important;
+    max-width: none;
+    margin-left: -5rem;   
+    margin-block-start: 1.2rem;
+}

@@ -1,0 +1,204 @@
+.card-home{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    max-width: 200rem !important;
+    width: auto !important;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 5px;
+    margin-block-end: 2rem;
+    -webkit-box-shadow: 2px 6px 15px 0px rgb(69 65 78 / 25%);
+    -moz-box-shadow: 2px 6px 15px 0px rgba(69 65 78 / 25%);
+    box-shadow: 2px 6px 15px 0px rgb(69 65 78 / 25%);
+}
+
+.card-images{
+    max-width: 200rem !important;
+    -webkit-box-shadow: 2px 6px 15px 0px rgb(69 65 78 / 25%);
+    -moz-box-shadow: 2px 6px 15px 0px rgba(69 65 78 / 25%);
+    box-shadow: 2px 6px 15px 0px rgb(69 65 78 / 25%);
+}
+
+.card-data-r{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    max-width: 200rem !important;
+    width: auto !important;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 5px;
+    margin-block-end: 2rem;
+}
+
+.card-data-r:hover{
+    -webkit-box-shadow: 2px 6px 15px 0px rgb(69 65 78 / 25%);
+    -moz-box-shadow: 2px 6px 15px 0px rgba(69 65 78 / 25%);
+    box-shadow: 2px 6px 15px 0px rgb(69 65 78 / 25%);
+}
+
+.card-resultados{
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
+
+.btn-analytics{
+    background-color: #011936;
+    color: white !important;
+    font-family: 'Baloo 2';
+    font-style: normal;
+    line-height: 29px;
+}
+
+.text-analytics{
+    font-family: 'Baloo 2' !important;
+}
+
+.title-bc{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.title-bc-modal{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Baloo 2' !important;
+    color: #011936 !important;
+}
+
+.subtitle-bc{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.thead-bc{
+    background-color: #011936 !important;
+    color: #fff;
+    
+}
+
+.img-resultados{
+    width: 140px !important;
+    height: 140px !important;
+    display: block !important;
+    margin: auto !important;
+}
+
+.txt-nameP{
+    font-size: 20px !important;
+    font-weight: 600 !important;
+}
+
+.text-type{
+    font-size: 16px !important;
+    font-weight: 400 !important;
+}
+
+.text-bill{
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    text-align: left;
+}
+
+/**
+CODIGOS RECOMENDACIONES 
+A #046f28
+B 369347
+C 1EDD40
+D BAF25F
+E F3EB3F
+F FFC100
+G FF7000
+H FF0000
+*/
+.btn-type-recommendation-A{
+    background-color: #046f28;
+    color: white !important;
+    font-family: 'Baloo 2';
+    font-style: normal;
+    line-height: 29px;
+    margin-block-end: 1rem;
+}
+
+.btn-type-recommendation-B{
+    background-color: #369347;
+    color: white !important;
+    font-family: 'Baloo 2';
+    font-style: normal;
+    line-height: 29px;
+    margin-block-end: 1rem;
+}
+
+.btn-type-recommendation-C{
+    background-color: #1EDD40;
+    color: white !important;
+    font-family: 'Baloo 2';
+    font-style: normal;
+    line-height: 29px;
+    margin-block-end: 1rem;
+}
+
+.btn-type-recommendation-D{
+    background-color: #BAF25F;
+    color: black !important;
+    font-family: 'Baloo 2';
+    font-style: normal;
+    line-height: 29px;
+    margin-block-end: 1rem;
+}
+
+.btn-type-recommendation-E{
+    background-color: #F3EB3F;
+    color: black !important;
+    font-family: 'Baloo 2';
+    font-style: normal;
+    line-height: 29px;
+    margin-block-end: 1rem;
+}
+
+.btn-type-recommendation-F{
+    background-color: #FFC100;
+    color: black !important;
+    font-family: 'Baloo 2';
+    font-style: normal;
+    line-height: 29px;
+    margin-block-end: 1rem;
+}
+
+.btn-type-recommendation-G{
+    background-color: #FF7000;
+    color: white !important;
+    font-family: 'Baloo 2';
+    font-style: normal;
+    line-height: 29px;
+    margin-block-end: 1rem;
+}
+
+.btn-type-recommendation-H{
+    background-color: #FF0000;
+    color: white !important;
+    font-family: 'Baloo 2';
+    font-style: normal;
+    line-height: 29px;
+    margin-block-end: 1rem;
+}
+
+.modal-faq-bc{
+    margin-block-start: 2rem !important;
+}
+
+.btn-secondary-bc{
+    background-color: #00A8E8;
+    color: white !important;
+    font-family: 'Baloo 2';
+    font-style: normal;
+    line-height: 29px;
+}

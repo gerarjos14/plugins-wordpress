@@ -1,0 +1,47 @@
+.txt-tables {
+  color: white !important;
+  font-weight: 800 !important;
+}
+
+.content-aument-categorias,
+.content-buscador {
+  margin-block-end: 2rem !important;
+}
+
+.table-productos {
+  width: 109% !important;
+  max-width: none !important;
+  margin-left: -2.5rem;
+}
+
+.text-error-search {
+  font-size: 16px;
+  color: red;
+  font-weight: 900;
+  text-align: center;
+}
+
+.thead-dark-sp{
+  background-color: #000 !important;
+}
+
+
+.button--loading {
+  content: "";
+  position: unset;
+ 
+  border: 4px solid transparent;
+  border-top-color: #ffffff;
+  border-radius: 50%;
+  animation: button-loading-spinner 1s ease infinite;
+}
+
+@keyframes button-loading-spinner {
+  from {
+    transform: rotate(0turn);
+  }
+
+  to {
+    transform: rotate(1turn);
+  }
+}

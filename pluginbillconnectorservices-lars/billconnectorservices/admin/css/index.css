@@ -1,0 +1,28 @@
+
+.body{
+    background: #F4F4FA !important;
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #011936;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+    -webkit-transition-duration: 800ms;
+    -o-transition-duration: 800ms;
+    transition-duration: 800ms;
+    /*box-shadow: 3px 0 15px -1px rgba(0, 0, 0, 0.15);*/
+
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #00A8E8;
+  }

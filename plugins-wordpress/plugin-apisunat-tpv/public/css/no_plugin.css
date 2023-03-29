@@ -1,0 +1,8 @@
+.card-no-plugin{
+    width: 70% !important;
+    max-width: none !important;
+    display: block !important;
+    margin: auto !important;
+    margin-block-start: 1.5rem !important;
+    height: 75% !important;
+}

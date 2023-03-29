@@ -1,0 +1,189 @@
+.card-config{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    max-width: 200rem !important;
+    width: auto !important;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 5px;
+    margin-block-end: 2rem;
+    -webkit-box-shadow: 2px 6px 15px 0px rgb(69 65 78 / 25%);
+    -moz-box-shadow: 2px 6px 15px 0px rgba(69 65 78 / 25%);
+    box-shadow: 2px 6px 15px 0px rgb(69 65 78 / 25%);
+}
+
+.card-no-plugin{
+    width: 70% !important;
+    max-width: none !important;
+    display: block !important;
+    margin: auto !important;
+    margin-block-start: 1.5rem !important;
+    height: 75% !important;
+}
+
+.card-title-plugin{
+    max-width: 200rem !important;
+    width: auto !important;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 5px;
+    margin-block-end: 2rem;
+    -webkit-box-shadow: 2px 6px 15px 0px rgb(69 65 78 / 25%);
+    -moz-box-shadow: 2px 6px 15px 0px rgba(69 65 78 / 25%);
+    box-shadow: 2px 6px 15px 0px rgb(69 65 78 / 25%);
+}
+
+.text-bc{
+    font-family: 'Baloo 2' !important;
+}
+
+.title-action-bc{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.title-pedidos{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.btn-bc{
+    background-color: #011936;
+    color: white !important;
+    font-family: 'Baloo 2';
+    font-style: normal;
+    line-height: 29px;
+}
+
+.btn-secondary-bc{
+    background-color: #00A8E8;
+    color: white !important;
+    font-family: 'Baloo 2';
+    font-style: normal;
+    line-height: 29px;
+}
+
+
+
+.list-group-item{
+    /* border: none !important; */
+    font-family: 'Baloo 2', sans-serif !important;
+    color: black !important;
+    font-size: 15px !important;
+    font-weight: 900 !important;    
+    border-radius: 40px !important;  
+    margin-block-end: 1rem !important;
+    line-height: 12px !important;
+    text-align: center !important;
+    -webkit-box-shadow: 2px 6px 15px 0px rgb(69 65 78 / 25%);
+    -moz-box-shadow: 2px 6px 15px 0px rgba(69 65 78 / 25%);
+    box-shadow: 2px 6px 15px 0px rgb(69 65 78 / 25%);
+}
+
+.list-group-item:hover{
+    -webkit-box-shadow: 2px 6px 15px 0px rgb(69 65 78 / 25%);
+    -moz-box-shadow: 2px 6px 15px 0px rgba(69 65 78 / 25%);
+    box-shadow: 2px 6px 15px 0px rgb(69 65 78 / 25%);
+    background-color: #011936 !important;
+    border-color: #011936 !important;
+    color: white !important;
+}
+
+.list-group-item.active{
+    background-color: #011936 !important;
+    border-color: #011936 !important;
+    font-family: 'Baloo 2', sans-serif !important;
+    color: white !important;
+    font-size: 15px !important;
+    font-weight: 900 !important;
+    line-height: 12px !important;
+
+}
+
+
+.title-section-page{
+    font-size: 25px !important;
+    font-weight: bolder !important;
+    font-family: 'Baloo 2', sans-serif !important;
+}
+
+.title-action{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.text-sp{
+    font-family: 'Baloo 2', sans-serif;
+}
+
+.divideer{
+    margin-block-end: 1.5rem !important;
+    margin-top: 0rem !important;
+    border-top: 1px solid #00A8E8 !important;
+}
+.title-productos{
+    font-size: 22px;
+    font-weight: 900;
+    margin-block-end: -0.2rem;
+    margin-block-start: 0.3rem;
+}
+
+.subtitle-list{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.btn-bc:hover,
+.btn-tutorial:hover,
+.btn-secondary-bc:hover,
+.btn-save:hover,
+.btn-search:hover,
+.btn-config:hover{
+    -webkit-box-shadow: 2px 6px 15px 0px rgb(69 65 78 / 25%);
+    -moz-box-shadow: 2px 6px 15px 0px rgba(69 65 78 / 25%);
+    box-shadow: 5px 10px 20px 1px rgb(69 65 78 / 25%);
+}
+
+.bill-logo{
+    max-width: 25% !important;
+}
+
+.col-container-logo{
+    max-width: none !important;
+    margin-inline-end: -15% !important;
+}
+
+.col-btn-perfil{
+    margin-inline-start: 15%;
+    max-width: none !important;
+}
+
+.inputs-admin-config{
+    border-radius: 1rem !important;
+    border-color: #011936 !important;
+
+}
+
+.btn-submit-config{
+    width: 40% !important;
+    font-weight: 600 !important;
+}
+
+
+.btn-services-desactive{
+    background-color: #00A8E8 !important;
+    color: #011936 !important;
+    border-radius: 1rem !important;
+}
+
+.btn-services-active{
+    background-color: #011936 !important;
+    color: #fff !important;
+    border-radius: 1rem !important;
+}

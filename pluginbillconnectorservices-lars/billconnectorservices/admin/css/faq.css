@@ -1,0 +1,20 @@
+.card-faq{
+    max-width: none !important;
+    border: none !important;
+}
+
+.header-faq{
+    background-color: #00A8E8 !important;
+    border-bottom: none !important;
+    color: white !important;
+}
+
+.collapse-faq{
+    border: 1px solid #00A8E8 !important;
+    border-radius: 0rem 0rem 1rem 1rem !important;
+}
+
+.title-card-faq{
+    color: white !important;
+    font-family: 'Baloo 2', sans-serif !important;
+}   

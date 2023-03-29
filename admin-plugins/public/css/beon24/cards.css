@@ -1,0 +1,37 @@
+.btn-new-cards {
+    float: right !important;
+    margin-block-end: 2.5%;
+}
+.row-logo-cards {
+    margin-block-end: 1rem;
+}
+
+.card-data-cards {
+    min-height: 15rem;
+}
+
+.logo-card-Mastercard {
+    height: 100% !important;
+    width: 45% !important;
+}
+
+.logo-card-VISA {
+    height: 100% !important;
+    width: 45% !important;
+}
+
+.logo-card-american_express {
+    height: 100% !important;
+    width: 45% !important;
+}
+
+.logo-card-discover {
+    height: 100% !important;
+    width: 45% !important;
+}
+
+.footer-cards-bc {
+    min-height: 4rem;
+    border-top: 0.25px solid;
+    background-color: #011936;
+}
